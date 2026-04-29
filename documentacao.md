@@ -74,13 +74,7 @@ pip install pyinstaller
 2. Gere o executável:
 
 ```bash
-pyinstaller --noconfirm --onefile --windowed whatsapp_sender.py
-```
-
-(Opcional com ícone:)
-
-```bash
-pyinstaller --noconfirm --onefile --windowed --icon=assets/icon.ico whatsapp_sender.py
+pyinstaller --onefile --windowed --icon=assets/icon.ico --name hermes app.py
 ```
 
 3. O `.exe` será gerado na pasta `dist/`
